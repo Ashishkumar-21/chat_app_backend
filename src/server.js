@@ -13,7 +13,7 @@ const httpServer = createServer(app);
 
 const io = new Server(httpServer, {
     cors: {
-        origin: "https://chatt-app-q7ow.onrender.com",
+        origin: "https://chat-app-backend-74cm.onrender.com",
         methods: ["GET", "POST"]
     },
 });
