@@ -21,6 +21,7 @@ const io = new Server(httpServer, {
     },
 });
 
+
 initSocket(io);
 
 // Connect DB first
